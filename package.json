@@ -1,0 +1,21 @@
+{
+  "name": "diamond_polish",
+  "version": "1.0.0",
+  "description": "Diamond Polish Website",
+  "license": "ISC",
+  "author": "Evans Gaya",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "nodemailer": "^10.1.0",
+    "nodemon": "^3.1.14"
+  }
+}
